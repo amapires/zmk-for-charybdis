@@ -29,10 +29,10 @@
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4        &kp F5    &kp F6        &kp F7          &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
-&kp CAPS        &none   &none   &none         &none     &bt BT_NXT    &none           &none     &none         &none      &none    &kp PAGE_UP
-&kp LEFT_SHIFT  &none   &none   &none         &none     &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &none    &kp PAGE_DOWN
-&mo 0           &none   &none   &none         &none     &none         &none           &none     &none         &none      &none    &none
+&kp F1          &kp F2  &kp F3  &kp F4        &kp F5    &kp F6        &kp F7          &kp F8    &kp F9        &kp F10    &kp F11          &kp F12
+&kp CAPS        &none   &none   &none         &none     &bt BT_NXT    &none           &none     &none         &none      &kp PRINTSCREEN  &none
+&kp LEFT_SHIFT  &none   &none   &none         &none     &bt BT_CLR    &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp HOME         &kp PG_UP
+&mo 0           &none   &none   &none         &none     &none         &none           &none     &none         &none      &kp END          &kp PAGE_DOWN
                                 &kp LEFT_WIN  &none     &none         &none           &none
                                               &mkp MB1  &mkp MB2      &none
             >;
